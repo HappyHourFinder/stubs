@@ -1,0 +1,12 @@
+{
+  "id" : "bdfd8624-7a84-45c7-b1f9-1aee97ac1aac",
+  "request" : {
+    "url" : "/1",
+    "method" : "DELETE"
+  },
+  "response" : {
+    "status" : 204,
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "bdfd8624-7a84-45c7-b1f9-1aee97ac1aac"
+}

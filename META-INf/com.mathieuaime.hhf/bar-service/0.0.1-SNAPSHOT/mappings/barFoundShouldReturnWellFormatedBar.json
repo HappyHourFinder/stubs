@@ -1,0 +1,16 @@
+{
+  "id" : "9942a293-68b4-4476-bfff-5e3dc52a8f88",
+  "request" : {
+    "url" : "/1",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"uuid\":\"1\",\"name\":\"Bar\",\"latitude\":\"1.0\",\"longitude\":\"2.0\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "9942a293-68b4-4476-bfff-5e3dc52a8f88"
+}

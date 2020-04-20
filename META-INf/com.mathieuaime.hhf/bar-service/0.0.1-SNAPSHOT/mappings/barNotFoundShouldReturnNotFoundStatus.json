@@ -1,0 +1,12 @@
+{
+  "id" : "67839eda-d2f4-42db-95a3-808070f53ef9",
+  "request" : {
+    "url" : "/0",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 404,
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "67839eda-d2f4-42db-95a3-808070f53ef9"
+}

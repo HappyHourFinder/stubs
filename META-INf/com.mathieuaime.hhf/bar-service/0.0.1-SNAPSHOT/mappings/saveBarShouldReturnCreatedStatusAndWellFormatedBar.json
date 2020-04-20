@@ -1,0 +1,28 @@
+{
+  "id" : "dbfe58b4-6a4c-4110-a282-77177552d1b5",
+  "request" : {
+    "url" : "/",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json.*"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$[?(@.['name'] == 'Bar')]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['latitude'] == '1.0')]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['longitude'] == '2.0')]"
+    } ]
+  },
+  "response" : {
+    "status" : 201,
+    "body" : "{\"uuid\":\"RPRKFWAIOIOHIWDYSXNU\",\"name\":\"Bar\",\"latitude\":\"1.0\",\"longitude\":\"2.0\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "dbfe58b4-6a4c-4110-a282-77177552d1b5"
+}
